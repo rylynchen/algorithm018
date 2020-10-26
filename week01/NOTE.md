@@ -45,3 +45,19 @@
 * 有序链表
 * 对标 平衡树/二分查找
 * insert/delete/lookup O(log n)
+# 栈 stack
+* 先进后出
+* insert/delete O(1)
+* lookup O(n)
+# 队列 queue
+* 先进先出
+* insert/delete O(1)
+* lookup O(n)
+# 双端队列 Deque
+* Double-End Queue
+* insert/delete O(1)
+* lookup O(n)
+# Priority Queue
+* 插入 O(1)
+* 取出 O(logN)
+* 底层实现复杂多样
