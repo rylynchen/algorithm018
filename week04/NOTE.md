@@ -41,7 +41,7 @@
     ```
 * BFS模版
     ```
-    def bfs(graph, start, end):
+    def bfs(graph, start, end): 
         queue = []
         queue.append([start])
         visited.add(start)
@@ -51,3 +51,8 @@
             # logic code here
             queue.push(node.children)
     ```
+ 
+# 贪心算法 Greedy
+    * 贪心：当前左局部最优
+    * 回溯：能够回退
+    * 动态规划：最优判断 + 回退
