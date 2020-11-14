@@ -53,6 +53,32 @@
     ```
  
 # 贪心算法 Greedy
-    * 贪心：当前左局部最优
-    * 回溯：能够回退
-    * 动态规划：最优判断 + 回退
+* 贪心：当前左局部最优
+* 回溯：能够回退
+* 动态规划：最优判断 + 回退
+    
+# 二分查找
+* O(logN)
+* 目标函数单调性(单调递增或递减)
+* 存在上下界
+* 能 通过索引访问
+* 代码模版
+```
+left, right = 0, len(array) - 1
+while left <= right
+    mid = (left + right) / 2
+    if array[mid] == target
+        return result
+    else if array[mid] < target
+        left = mid + 1
+    else
+        right = mid - 1
+```
+#  牛顿迭代法
+```
+def mySqrt(x)
+    r = x
+    while r*r > x
+        r = (r + x/r) / 2
+    return r
+```
