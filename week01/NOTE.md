@@ -24,7 +24,7 @@
 * iteration : for, while, loop
 * 递归 recursion
 * 搜索 search : 深度优先 Depth first search, 广度优先 Breadth first search
-* 动态规划 Dynamic Progreamming
+* 动态规划 Dynamic Programming
 * 二分查找 Binary search
 * 贪心 Greedy
 * 数学 Math, 几何 Geometry
